@@ -483,8 +483,8 @@ class Landing extends React.Component{
        with exceptional problem-solving
        abilities from anywhere in Africa.
      </p>
-     <Link href="/login" className="btn btn-outline-primary" >Apply to jobs</Link>
-     <a href="https://calendly.com" className="btn btn-primary mx-2" >Request a call</a>
+     <Link to="/login" className="btn btn-outline-primary" >Apply to jobs</Link>
+     <a href="https://calendly.com/hyadnow/30min?back=1&month=2021-07" className="btn btn-primary mx-2" >Request a call</a>
      </div>
      <div className="col-12 col-md-6">
       <img src="/img/landing.jpg" className=""/>
