@@ -528,7 +528,7 @@ class Landing extends React.Component{
      </div>
      <div className="faqs my-3" id="faqs">
      <h1 className="">FREQUENTLY ASKED QUESTIONS</h1>
-     <Faqs summary="What is Hyad?" details="Hyad is an outsourcing furm that helps startups in hiring the top 1% Artificial Intelligence, Machine Learning and Blockchain engineers in Africa. Our mission is to help startups find software engineers with exceptional creativity and problem-solving abilities."
+     <Faqs summary="What is Hyad?" details="Hyad is an outsourcing firm that helps startups in hiring the top 1% Artificial Intelligence, Machine Learning and Blockchain engineers in Africa. Our mission is to help startups find software engineers with exceptional creativity and problem-solving abilities."
      />
      <Faqs summary="What steps will I take to hire on Hyad" details="Click on Hire now. On the new page you would be prompted to tell us exactly the type of Software Engineer you want. After clicking next, a new page opens up showing you a shortlist of engineers from our pool of thoroughly vetted engineers. Choose as many as you want to hire. Click pay and automatically they will be matched with your company. " />
      <Faqs summary="Will I pay Hyad for their service?" details="Yes, you have to pay a token, that is only after we have done our job in helping you recruit the best engineers in Africa." />
