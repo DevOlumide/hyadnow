@@ -51,7 +51,9 @@ class Navigation extends React.Component{
       <Nav.Link href="/about" className="">About us</Nav.Link>
       <Nav.Link href="/fordeveloper" className="">For Engineers</Nav.Link>
       <div className="d-flex text-center">
-      <Nav.Link href="/register" className="btn btn-primary text-light px-3">Sign up</Nav.Link>
+      <Nav.Link className="btn btn-primary text-light px-3">
+      <Link to="/register">Sign up </Link>
+      </Nav.Link>
       <Nav.Link href="/login" className="btn btn-outline-primary text-primary mx-3 px-3">Sign in</Nav.Link>
       </div>
       </Nav>
@@ -481,7 +483,7 @@ class Landing extends React.Component{
        with exceptional problem-solving
        abilities from anywhere in Africa.
      </p>
-     <a href="/login" className="btn btn-outline-primary" >Apply to jobs</a>
+     <Link href="/login" className="btn btn-outline-primary" >Apply to jobs</Link>
      <a href="https://calendly.com" className="btn btn-primary mx-2" >Request a call</a>
      </div>
      <div className="col-12 col-md-6">
