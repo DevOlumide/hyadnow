@@ -492,7 +492,7 @@ class Landing extends React.Component{
      </div>
      <div className="text-muted"></div>
 
-     <p className="my-3 alert alert-warning">The greatest education in the world is watching the masters at work. - <b>Micheal Jackson</b></p>
+     <p className="my-3 alert alert-warning">Let's invent tomorrow, instead of worrying about what happened yesterday. - <b>Steve Jobs</b></p>
      <div className="text-center row">
      <div className="col-12 col-md-4 my-2">
      <h1 className="large text-primary alpha-1">
