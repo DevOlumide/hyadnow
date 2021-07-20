@@ -52,7 +52,7 @@ class Navigation extends React.Component{
       <Nav.Link href="/fordeveloper" className="">For Engineers</Nav.Link>
       <div className="d-flex text-center">
       <Nav.Link className="btn btn-primary text-light px-3">
-      <Link to="/register">Sign up </Link>
+      <Link to="/register" className="text-light">Sign up </Link>
       </Nav.Link>
       <Nav.Link href="/login" className="btn btn-outline-primary text-primary mx-3 px-3">Sign in</Nav.Link>
       </div>
