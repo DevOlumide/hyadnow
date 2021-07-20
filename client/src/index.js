@@ -339,7 +339,7 @@ onClickHandler(event){
   this.state.province.comment
   }</div>
   
-  <input type="number" className="form-control mt-2" onChange={this.changePostalCode} value={this.state.province.content} placeholder="Postal or Zip code"/>
+  <input type="number" className="form-control mt-2" onChange={this.changePostalCode} value={this.state.postal.content} placeholder="Postal or Zip code"/>
   <div className="text-danger">{
   this.state.postal.comment
   }</div>

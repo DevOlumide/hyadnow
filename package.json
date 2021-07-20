@@ -8,18 +8,14 @@
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
-    "bootstrap": "^5.0.2",
-    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.13.3",
-    "nodemon": "^2.0.12",
-    "react-router-dom": "^5.2.0"
+    "nodemon": "^2.0.12"
   }
 }
